@@ -3,3 +3,14 @@
 @import "bootstrap-5.1.3/scss/variables";
 @import "bootstrap-5.1.3/scss/mixins";
 @import "template";
+
+#nprogress .bar {
+    background: $color-primary!important;
+}
+#nprogress .spinner-icon {
+    border-top-color: $color-primary!important;
+    border-left-color: $color-primary!important;
+}
+#nprogress .peg {
+    box-shadow: 0 0 10px $color-primary, 0 0 5px $color-primary!important;
+}  
